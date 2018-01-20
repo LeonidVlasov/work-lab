@@ -1,0 +1,101 @@
+/* general */
+
+.head {
+    padding: 3rem;
+    display: flex;
+}
+
+/* end of general */
+
+
+/* header */
+
+.head__header {
+    height: 3.2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* end of header */
+
+/* logo */
+
+.head__link {
+    width: 7rem;
+}
+
+.test {
+    fill: rgb(238, 255, 7);
+}
+
+.test:hover {
+    fill: rgb(91, 255, 241);
+}
+
+
+/* end of logo */
+
+/* nav */
+
+.navigation {
+    width: 30%;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__link {
+    font-family: 'Yrsa', serif;
+    font-size: 1.5rem;
+    color: rgb(238, 255, 7);
+    font-weight: bold;
+}
+
+.nav__link:hover {
+    color: rgb(91, 255, 241);
+}
+
+/* end of nav */
+
+/* slider*/
+
+.top-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.top-slider__item {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.item--1 {
+    background: url(../img/backgrounds/1.jpg) 30% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item--2 {
+    background: url(../img/backgrounds/2.jpg) 30% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item--3 {
+    background: url(../img/backgrounds/3.jpg) 30% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* end of slider */
+
+
+
