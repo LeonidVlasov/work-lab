@@ -17,6 +17,14 @@ $(document).ready(function () {
         arrows: false,
     });
 
+    $('.gallery__container').slick({
+        speed: 1000,
+        infinite: true,
+        autoplay: true,
+        dots: false,
+        arrows: true,
+    });
+
     $(".toggle").click(function () {
         $(".down").toggleClass('downstart');
         $(".fades").toggleClass("fadestart");
