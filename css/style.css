@@ -129,7 +129,7 @@
 }
 
 .wrapper-aboutus__foto {
-    height: 500px;
+    height: 400px;
     width: 40%;
 }
 
@@ -140,7 +140,7 @@
 }
 
 .wrapper-aboutus__pic {
-    height: 500px;
+    height: 400px;
     width: 100%;
     object-fit: cover;
 }
