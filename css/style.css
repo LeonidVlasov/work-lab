@@ -78,19 +78,19 @@
 }
 
 .item--1 {
-    background: url(../img/backgrounds/1.jpg) 30% 30%;
+    background: url(../img/backgrounds/test-1.jpg) 50% 32%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .item--2 {
-    background: url(../img/backgrounds/2.jpg) 30% 30%;
+    background: url(../img/backgrounds/test-5.jpg) 50% 31%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .item--3 {
-    background: url(../img/backgrounds/3.jpg) 30% 30%;
+    background: url(../img/backgrounds/test-9.jpg) 50% 25%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -121,11 +121,12 @@
 
 
 .wrapper-aboutus__description {
-    width: 47%;
+    width: 50%;
 }
 
 .wrapper-aboutus__foto {
-    width: 47%;
+    height: 500px;
+    width: 40%;
 }
 
 .description__paragraph {
@@ -135,7 +136,9 @@
 }
 
 .wrapper-aboutus__pic {
+    height: 500px;
     width: 100%;
+    object-fit: cover;
 }
 
 /* END OF ABOUT US */
@@ -152,45 +155,175 @@
 .wrapper-collections__gallery {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -55%);
+    transform: translate(-50%, -50%);
     padding: 3rem;
 }
 
 .gallery__container {
-    width: 60rem;
+    
+    width: 500px;
+    display: flex;
+    align-items: center;
 }
 
 .gallery__item {
-    height: 40rem;
-    width: 60rem;
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.gallery__item img {
-    height: 100%;
-    width: 100%;
+.gallery__item--1 {
+    background: url(../img/collection_aut-wint-2018/pic-1.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.gallery__item--2 {
+    background: url(../img/collection_aut-wint-2018/pic-2.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--3 {
+    background: url(../img/collection_aut-wint-2018/pic-3.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--4 {
+    background: url(../img/collection_aut-wint-2018/pic-4.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--5 {
+    background: url(../img/collection_aut-wint-2018/pic-5.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--6 {
+    background: url(../img/collection_aut-wint-2018/pic-6.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--7 {
+    background: url(../img/collection_aut-wint-2018/pic-7.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--8 {
+    background: url(../img/collection_aut-wint-2018/pic-8.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--9 {
+    background: url(../img/collection_aut-wint-2018/pic-9.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--10 {
+    background: url(../img/collection_aut-wint-2018/pic-10.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--11 {
+    background: url(../img/collection_aut-wint-2018/pic-11.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--12 {
+    background: url(../img/collection_aut-wint-2018/pic-12.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--13 {
+    background: url(../img/collection_aut-wint-2018/pic-13.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--14 {
+    background: url(../img/collection_aut-wint-2018/pic-14.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--15 {
+    background: url(../img/collection_aut-wint-2018/pic-15.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--16 {
+    background: url(../img/collection_aut-wint-2018/pic-16.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--17 {
+    background: url(../img/collection_aut-wint-2018/pic-17.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--18 {
+    background: url(../img/collection_aut-wint-2018/pic-18.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--19 {
+    background: url(../img/collection_aut-wint-2018/pic-19.jpg) 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--20 {
+    background: url(../img/collection_aut-wint-2018/pic-20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery__item--21 {
+    background: url(../img/collection_aut-wint-2018/pic-21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 
 .slick-prev {
-    left: -70px;
+    left: -50px;
 }
 
 .slick-next {
-    right: -70px;
+    right: -50px;
 }
 
 .slick-prev:before {
     content: "\f104";
-    font: 4rem/1 'FontAwesome';
+    font: 4rem/0 'FontAwesome';
     color: black;
 }
 
 .slick-next:before {
     content: "\f105";
-    font: 4rem/1 'FontAwesome';
+    font: 4rem/0 'FontAwesome';
     color: black;
 
 }
@@ -219,9 +352,9 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
-    transform: translate(-55%, -50%);
+    transform: translate(-50%, -50%);
     padding: 2rem;
     text-align: center;
 }
@@ -233,7 +366,7 @@
 }
 
 .contacts__block {
-    padding: 1.5rem 0;
+    padding: 0 0 2rem;
     letter-spacing: 0.1rem;
 }
 
@@ -252,6 +385,7 @@
     letter-spacing: 0.1rem;
     padding: 1rem 0;
     text-decoration: underline;
+    font-style: italic;
 }
 
 .socials__header {
@@ -260,15 +394,20 @@
     letter-spacing: 0.1rem;
 }
 
+.dest {
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
 .number {
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .socials__container {
-    padding: 1rem 0;
+    padding: 1rem;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     font-size: 3rem;
 }
 
@@ -276,8 +415,8 @@
     color: black;
 }
 
-.social__link--instagram:hover {
- 
+.fa-instagram {
+    margin-right: 2rem;
 }
 
 .social__link--telegram:hover {
@@ -285,3 +424,6 @@
 }
 
 /* END OF CONTACTS */
+.slick-slide {
+    width: 500px;
+}

@@ -20,9 +20,10 @@ $(document).ready(function () {
     $('.gallery__container').slick({
         speed: 1000,
         infinite: true,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         arrows: true,
+        variableWidth: true,
     });
 
     $(".toggle").click(function () {
