@@ -24,6 +24,7 @@ $(document).ready(function () {
         dots: false,
         arrows: true,
         variableWidth: true,
+        autoplay: true,
     });
 
     $(".toggle").click(function () {
